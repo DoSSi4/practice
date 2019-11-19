@@ -1,0 +1,643 @@
+﻿1)
+#include <iostream>
+using namespace std;
+
+int main()
+{
+ cout<<"silence is golden";
+ 
+}
+2)
+#include <iostream>
+using namespace std;
+int main (){
+cout<<"Monday"<<endl; 
+cout<<"November"<<endl; 
+cout<<"Dias";
+}
+3)
+#include <iostream>
+using namespace std;
+int main (){
+cout<<"0"<<endl; 
+cout<<"00"<<endl; 
+cout<<"000"<<endl;
+cout<<"0000"<<endl;
+cout<<"00000"<<endl;
+}
+4)
+#include <iostream>
+using namespace std;
+int main() {
+	cout << "AAAAAAAA" << endl;
+	cout << "AAAAAAAA" << endl;
+	cout << "AAAAAAAA" << endl;
+	cout << "AAAAAAAA" << endl;
+	cout << "AAAAAAAA" << endl;
+}
+5)
+#include <iostream>
+using namespace std;
+int main() {
+	cout << "*     *     *" << endl;
+	cout << " *   * *   *" << endl;
+	cout << "  * *   * *" << endl;
+	cout << "   *     *" << endl;
+}
+6)
+#include <iostream>
+using namespace std;
+int main() {
+	int c;
+	
+	c = 1 + 2 - 4;
+	cout <<c;
+	
+}
+
+7)
+#include <iostream>
+using namespace std;
+int main() {
+	double a,b,c;
+	a = 0.5;
+	b = 0.25;
+	c = a + b;
+	cout <<c;
+	
+}
+8)
+#include <iostream>
+using namespace std;
+int main() {
+	int a,b,c;
+	a = 2;
+	b = 3;
+	c = (a + (4*b))*(a - (3*b)) + a*a;
+	cout <<c;
+	
+}
+9)
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main() {
+	int a,b,c;
+	a = -2;
+	c = abs(2)+pow(a,5);
+	cout <<c;
+	
+}
+10)
+	a)	#include <iostream>
+		#include <cmath>
+		using namespace std;
+		int main() {
+		int a,b,c;
+		a = 3;
+		b = a+1;
+		c = pow(b,2)+3*b;
+		cout <<c;
+	
+		}
+
+b) 	#include <iostream>
+	#include <cmath>
+	using namespace std;
+	int main() {
+	int a,b,c;
+	a = 3;
+	b = a+1;
+	c = pow(b,2)+3*b;
+	cout <<c;
+	
+	}
+
+11)
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main() {
+	float x,res;
+	x = -2.34;
+	res = ((abs(x - 5) - sin(x))/ 3 + sqrt(pow(x, 2) + 2014) * cos(2 * x) - 3;
+	cout <<res;
+	
+}
+
+
+14)
+#include <iostream>
+using namespace std;
+int main() {
+int a,b;
+cin>>a>>b;
+cout<<a+b<<endl;
+cout<<a*b;
+}
+15)
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main() {
+int a;
+cin>>a;
+cout<<pow(a,2)<<endl;
+cout<<pow(a,3);
+}
+16)
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main() {
+    double a,b,c;
+cin>>a>>b>>c;
+cout<<2*a+b/3+pow(c,2);
+}
+17)
+#include <iostream>
+using namespace std;
+int main() {
+    int a,b,c;
+cin>>a>>b>>c;
+cout<<(a+b+c)/3<<endl;
+cout<<2*(a+c)-3*b;
+}
+18)
+#include <iostream>
+using namespace std;
+int main() {
+    int a;
+cin>>a;
+cout<<a*a<<endl;
+cout<<4*a;
+}
+19)
+#include <iostream>
+using namespace std;
+int main() {
+    float a,b,m;
+    m=1000;
+cin>>a>>b;
+cout<<"a) "<<(a*300/m)+(b*400/m)<<endl;
+cout<<"b) "<<3*(2*b+1800/m);
+}
+20)
+#include <iostream>
+using namespace std;
+int main() {
+    float s,v,t;
+  cin>>t>>s;
+  v=(s*1000)/(t/60);
+cout<<v<< "м/с";
+}
+
+ 21)
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main() {
+float a,b,c,s;
+cin>>a>>b;
+c=sqrt(pow(a,2)+pow(b,2));
+s=(a*b)/2;
+cout<<"c= "<<c<<endl;
+cout<<"S= "<<s;
+}
+
+22)
+#include <iostream>
+using namespace std;
+int main() {
+    float t,f;
+    cin>>t;
+    f=(9/5)*(t+32);
+cout<<f;
+}
+23)
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+int main() {
+ double y,a,k,ch;
+ cout << "price for 1 kg ";
+ cin >> a;
+ cout << "ch 1.price 2.amount";
+ cin >> ch;
+ if (ch = 1) {
+  cout << "amount: ";
+  cin >> y;
+  cout << y * a;
+ }
+ else {
+  cout << "price: ";
+  cin >> k;
+  cout << "amount: ";
+  cin >> y;
+  cout << k / y;
+ }
+ 
+ return 0;
+}
+25)
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+int main() {
+ double week, month, year;
+ cin >> week >> month >> year;
+ cout << week * 7 + month * 30 + year * 360;
+ return 0;
+}
+
+26)
+#include<iostream>
+using namespace std;
+
+void swap(double* a, double* b) {
+ double c;
+ c = *a;
+ *a = *b;
+ *b = c;
+ 
+
+}
+
+int main () {
+ double a, b;
+ cin >> a >> b;
+ 
+ swap(&a,&b);
+ cout<<a<<b;
+
+ return 0;
+}
+29)
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+int main()
+{
+ int a, b;
+ cin >> a >> b;
+ swap(a, b);
+ cout << a << b;
+ return 0;
+}
+30)
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+int main()
+{
+ int a, b = 4, c = 6, d = 15;
+ cin >> a;
+ cout << pow(a, b) << pow(a, c) << pow(a, d);
+ return 0;
+}
+31)
+#include <iostream>
+using namespace std;
+int main(){
+    int s1,s2,n;
+    s1=647*170;
+    s2=30*30;
+    n=s1/s2;
+    cout<<s1/s2;
+return 0;
+}
+32)
+#include <iostream>
+using namespace std;
+int main(){
+    int chastnoe, cifra, x, y=237;
+    cifra=y/100;
+    chastnoe=y%100;
+    x=chastnoe*10+cifra;
+    cout<<x;
+return 0;
+}
+33)
+#include <iostream>
+using namespace std;
+int main(){
+    double x,y;
+    cin>>x>>y;
+    if(x>=0 && y>=0){
+        cout<<sqrt(x-sqrt(y));
+    }
+return 0;
+}
+34)
+#include <iostream>
+using namespace std;
+int main(){
+    int a;
+    cin>>a;
+    if(a>3){
+        cout<<a+10;
+    }else cout<<a-10;
+return 0;
+}
+35)
+#include <iostream>
+using namespace std;
+int main(){
+    int a;
+    cin>>a;
+    if(a<7){
+        cout<<"Yes";
+    }
+    if(a>10){
+        cout<<"No";
+    }
+    if(a==9){
+        cout<<"Error";
+    }
+return 0;
+}
+36)
+#include <iostream>
+using namespace std;
+int main(){
+    int m;
+    cin>>m;
+    if(m==1){
+        cout<<"January";
+    }
+    if(m==2){
+        cout<<"February";
+    }
+    if(m==3){
+        cout<<"March";
+    }
+    if(m==4){
+        cout<<"April";
+    }
+    if(m==5){
+        cout<<"May";
+    }
+    if(m==6){
+        cout<<"June";
+    }
+    if(m==7){
+        cout<<"July";
+    }
+    if(m==8){
+        cout<<"August";
+    }
+    if(m==9){
+        cout<<"September";
+    }
+    if(m==10){
+        cout<<"October";
+    }
+    if(m==11){
+        cout<<"November";
+    }
+    if(m==12){
+        cout<<"December";
+    }
+return 0;
+}
+37)
+#include <iostream>
+using namespace std;
+int main(){
+    int a,b;
+    cin>>a>>b;
+    if(a>b){
+        cout<<a;
+    }
+    if(b>a){
+        cout<<b;
+    }
+return 0;
+}
+38)
+#include <iostream>
+using namespace std;
+int main(){
+    int a,b;
+    cin>>a>>b;
+    if(a-b==100 || b-a==100){
+        cout<<"yes";
+    }else cout<<"no";
+return 0;
+}
+39)
+#include <iostream>
+using namespace std;
+int main(){
+    int a,b,c;
+    cin>>a>>b;
+    if(a>b){
+        cout<<"yes";
+    }
+    else{
+        c=a;
+        a=b;
+        b=c;
+        cout<<a<<" "<<b;
+    }
+return 0;
+}
+40)
+#include <iostream>
+using namespace std;
+int main(){
+    int a;
+    cin>>a;
+    if(a>-10 && a<10){
+        a=a+5;
+    }
+    else{
+        a=a-10;
+    }
+    cout<<a;
+return 0;
+}
+41)
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+    int a;
+    cin>>a;
+    if(a>100 || a<-100){
+        a=0;
+    }
+    else{
+        a=a+1;
+    }
+    cout<<a;
+return 0;
+}
+42)
+#include <iostream>
+using namespace std;
+int main(){
+    int a,b;
+    cin>>a>>b;
+    if(a>=2 && a<=5){
+        b=a+10;
+    }
+    if(a>7 && a<40){
+        b=a-100;
+    }
+    if(a<=0 || a>3000){
+        b=a*3;
+    }
+    else{
+        b=0;
+    }
+    cout<<b;
+return 0;
+}
+43)
+#include <iostream>
+using namespace std;
+int main(){
+    int m;
+    cin>>m;
+    if(m==12 || m==1 || m==2){
+        cout<<"Winter";
+    }
+    if(m>=3 && m<=5){
+        cout<<"Spring";
+    }
+    if(m>=6 && m<=8){
+        cout<<"Summer";
+    }
+    if(m>=9 && m<=11){
+        cout<<"Autumn";
+    }
+return 0;
+}
+44)
+#include <iostream>
+using namespace std;
+int main(){
+    int a,b;
+    cin>>a>>b;
+    if(a!=10 && b!=10 && b%2==0){
+        cout<<a+b;
+    }
+    else{
+        cout<<a*b;
+    }
+return 0;
+}
+45)
+#include <iostream>
+using namespace std;
+int main(){
+    int a,b,c;
+    cin>>a>>b>>c;
+    if(a>10 && b>10 && c>10 && a%3==0 && b%3==0){
+        cout<<"yes";
+    }
+    else{
+        cout<<"no";
+    }
+return 0;
+}
+46)
+#include <iostream>
+using namespace std;
+int main(){
+    int a,b,c,sum=0;
+    cin>>a>>b>>c;
+    if(a%5==0){
+        sum+=a;
+    }
+    if(b%5==0){
+        sum+=b;
+    }
+    if(c%5==0){
+        sum+=c;
+    }
+    if(sum==0){
+        cout<<"error";
+    }
+return 0;
+}
+47)
+#include <iostream>
+using namespace std;
+int main(){
+    int a,b,c,max;
+    cin>>a>>b>>c;
+    if(a>b && a>c){
+        max=a;
+    }
+    if(b>a && b>c){
+        max=b;
+    }
+    if(c>a && c>b){
+        max=c;
+    }
+    cout<<max;
+return 0;
+}
+48)
+#include <iostream>
+using namespace std;
+int main(){
+   int a,b,c;
+
+
+cin>>a>>b>>c;
+   if((a+b)>(b+c)&&(a+b)>(b+c)){
+        cout<<a<<" "<<b;
+   }
+   if((b+c)>(a+b)&&(b+c)>(a+c)){
+        cout<<b<<" "<<c;
+   }
+   if((a+c)>(a+b)&&(a+c)>(b+c)){
+        cout<<a<<" "<<c;
+   }
+return 0;
+}
+49)
+#include <iostream>
+using namespace std;
+int main(){
+    int a[4];
+    for (int i=0; i<4;i++){
+        cin>>a[i];
+    }
+    int m = 0;
+    for (int i=0;i<4;i++){
+        if (a[i]%2==0){
+        if (a[i]>m){
+            m = a[i];
+        }
+        }
+    }
+    if (m!=0){
+        cout<<m;
+    } else {
+        cout<<"Not found";
+    }
+return 0;
+}
+50)
+#include <iostream>
+using namespace std;
+int main(){
+    int a,b,c;
+    cin>>a>>b>>c;
+    if(a==b || a==c || b==c){
+        cout<<"yes";
+    }
+    else{
+        cout<<"no";
+    }
+return 0;
+}
+	
